@@ -1,0 +1,35 @@
+*<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estiloF.css">
+</head>
+<body>
+    <h1>Formulário de Inscrição em Evento</h1>
+    <form action="/submit" method="post">
+        Nome:
+        <input type="text"name="Nome"><br>
+    E-mail:
+        <input type="email"name="E-mail"><br>
+    Telefone:
+        <input type="tel" name="Telefone" placeholder="(99)9999-9999" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}"><br>
+    Tipo de Ingresso:
+        <select name="options">
+         <option value="option1">Padrão</option>
+            <option value="option2">Vip</option>
+                 <option value="=option3">Premium</option>
+        </select><br>
+        Preferências de refeição:<br>
+        <input type="radio" name="Preferências" value="Vegetariana"> Vegetariana<br>
+        <input type="radio" name="Preferências" value="Vegana">Vegana<br>
+        <input type="radio" name="Preferências" value="Nenhuma" >Nenhuma<br>  
+        Comentários Adicionais:<br>
+        <textarea name="message" rows="4" cols="50"></textarea>  <br> 
+        <input type="reset" value="Reset">
+        <input type="submit" value="Enviar">
+        </form>
+  
+</body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(43, 189, 226);
+    text-align: center;
+}
+form{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid black;
+}
+h1{
+    font-size: 40px;
+}
